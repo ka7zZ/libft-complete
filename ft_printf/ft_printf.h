@@ -6,7 +6,7 @@
 /*   By: aghergut <aghergut@student.42madrid.com    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/06/25 15:52:14 by aghergut          #+#    #+#             */
-/*   Updated: 2024/10/16 16:27:26 by aghergut         ###   ########.fr       */
+/*   Updated: 2024/12/16 15:23:07 by aghergut         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -16,7 +16,13 @@
 //including variadic header
 # include <stdarg.h>
 // including own headers
-# include "../libft.h"
+# include "../changechar/changechar.h"
+# include "../checkchar/checkchar.h"
+# include "../lists/lists.h"
+# include "../memory/memory.h"
+# include "../strtoint/strtoint.h"
+# include "../strings/strings.h"
+# include "../puts/puts.h"
 
 // printf flags
 typedef struct s_flags

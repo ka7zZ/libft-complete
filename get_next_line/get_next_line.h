@@ -6,7 +6,7 @@
 /*   By: aghergut <aghergut@student.42madrid.com    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/09/04 12:05:38 by aghergut          #+#    #+#             */
-/*   Updated: 2024/10/16 13:42:08 by aghergut         ###   ########.fr       */
+/*   Updated: 2024/12/16 15:20:02 by aghergut         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -23,7 +23,13 @@
 # include <fcntl.h>
 # include <stdlib.h>
 
-# include "../libft.h"
+# include "../changechar/changechar.h"
+# include "../checkchar/checkchar.h"
+# include "../lists/lists.h"
+# include "../memory/memory.h"
+# include "../strtoint/strtoint.h"
+# include "../strings/strings.h"
+# include "../puts/puts.h"
 
 char	*get_next_line(int fd);
 
